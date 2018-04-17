@@ -17,11 +17,16 @@ main {
    grid-template-columns: repeat(6, 90px);
    grid-template-rows: repeat(6, 90px);
    grid-gap: 5px 5px;
+   text-align: center;
+
 }
 
 .grid-item {
    border: 1px solid black;
    border-radius: 30px;
+   line-height: 90px;
+   font-size: 25px;
+   font-weight: bold;
 }
 /*
 .counter {
@@ -70,8 +75,14 @@ main {
 
 
 .bg-green {
-   background-color: green;
+   background-color: rgba(16, 255, 4, 0.83);
+   color: #FFFFFF;
 }
-.bg-red {
-   background-color: red;
+.bg-yellow {
+   background-color: rgb(231, 228, 0);
+   color: rgb(6, 9, 8);
+}
+
+.error {
+   border: 2px solid rgba(224, 21, 1, 0.92);
 }
