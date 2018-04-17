@@ -1,0 +1,77 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   width: 100vw;
+   height: 100vh;
+}
+
+.grid-container {
+   display: grid;
+   height: 100%;
+   justify-content: center;
+   align-content: center;
+   grid-template-columns: repeat(6, 90px);
+   grid-template-rows: repeat(6, 90px);
+   grid-gap: 5px 5px;
+}
+
+.grid-item {
+   border: 1px solid black;
+   border-radius: 30px;
+}
+/*
+.counter {
+   width: 70px;
+   height: 250px;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   line-height: 70px;
+   font-size: 18px;
+   writing-mode: vertical-rl;
+   text-orientation: upright;
+}
+
+#points {
+   left: 23%;
+}
+
+#bombs {
+   right: 23%;
+}
+
+#scores {
+   display: inline-block;
+   text-align: center;
+   border-radius: 50%;
+   font-size: 40px;
+   width: 70px;
+   height: 70px;
+   background-color: rgb(32, 217, 16);
+   writing-mode: horizontal-tb;
+   text-orientation: unset;
+}
+
+#fauls {
+   display: inline-block;
+   text-align: center;
+   border-radius: 50%;
+   font-size: 40px;
+   width: 70px;
+   height: 70px;
+   background-color: rgb(217, 16, 16);
+   writing-mode: horizontal-tb;
+
+} */
+
+
+.bg-green {
+   background-color: green;
+}
+.bg-red {
+   background-color: red;
+}
